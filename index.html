@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Library</title>
 </head>
 <body>
+    <main>
+        <div class="lib-info">
+            <p>Title</p>
+            <p>Author</p>
+            <p>Pages</p>
+        </div>
+        <table class="table">
+            <tbody class="tableBody">
+            </tbody>
+        </table>
 
+
+        <div class="bookContainer">
+            <form class="newBook">
+                <h3>Add New Book</h3>
+                <label for="title"></label><input class="input" id="title" placeholder="Title" type="text">
+                <label for="author"></label><input class="input" id="author" placeholder="Author" type="text">
+                <label for="pages"></label><input class="input" id="pages" placeholder="Pages" type="number">
+                <button id="add-book">Submit</button>
+            </form>
+        </div>
+    </main>
 </body>
 <script src="app.js"></script>
 </html>
